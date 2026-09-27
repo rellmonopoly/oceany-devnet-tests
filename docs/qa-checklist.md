@@ -7,11 +7,11 @@ Use synthetic products and distinct test wallets. Record pass/fail, date, browse
 - [ ] The separate public `oceany-devnet-tests` repository exists and its contents have been reviewed.
 - [ ] `npm test` and `npm run check:devnet` pass. The selected wallet and the marketplace both target Solana devnet.
 - [ ] Creator and buyer use separate test wallets. The creator account is approved and can select a test collection.
-- [ ] Test artwork and metadata are original or licensed for public use; no private storage URL is embedded.
+- [ ] Use the synthetic [Oceany devnet test image](../fixtures/oceany-devnet-test.png), or other original/licensed test artwork, with no private storage URL. The fixture is visibly marked "NOT FOR SALE" and is not the mainnet membership artwork.
 
 ## Creator and product
 
-- [ ] Creator submits one synthetic NFT mint and receives a devnet transaction confirmation.
+- [ ] Creator uploads the synthetic image, approves its immutable image and metadata uploads, submits one devnet NFT mint, and receives a devnet transaction confirmation. Use a name and description that clearly identify it as a test asset.
 - [ ] NFT metadata and media resolve, and the mint belongs to the expected creator wallet and collection.
 - [ ] The resulting marketplace product/collection association is correct.
 - [ ] A second wallet cannot edit the creator's product or collection.

@@ -6,6 +6,7 @@ Public, synthetic test material for Oceany's Solana devnet product QA. This repo
 
 - Check that a Solana RPC endpoint is on devnet before using a test wallet.
 - Follow the [manual QA checklist](docs/qa-checklist.md) for creator minting, product association, listing boundaries, and wallet roles once the public test repository is ready.
+- Use the clearly labeled [synthetic test image](fixtures/oceany-devnet-test.png) for a creator mint. It is a QA fixture, not the Oceany membership NFT or a sale asset.
 - Keep test results and evidence in a private QA record. Publish only sanitized, reusable scripts and fixtures here.
 
 This repository does **not** deploy the marketplace, enable sales, or perform a mint. Digital-only purchases remain unavailable until Oceany has a reviewed sale program. Physical and phygital payment testing has separate release gates.
