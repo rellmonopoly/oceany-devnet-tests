@@ -1,0 +1,16 @@
+node_modules/
+.env*
+!.env.example
+.npmrc
+.yarnrc*
+evidence/
+reports/
+coverage/
+*.log
+*.key
+*.pem
+*.p12
+*.secret
+*.keypair.json
+id.json
+.DS_Store

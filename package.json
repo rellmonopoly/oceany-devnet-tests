@@ -1,0 +1,13 @@
+{
+  "name": "oceany-devnet-tests",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check:devnet": "node scripts/check-devnet.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
